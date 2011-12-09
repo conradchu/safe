@@ -70,7 +70,7 @@ module Astrails
 
       # Added support for regional S3 (non US-east)
       def server
-        @config[:s3, :server] || 's3.amazonaws.com'
+        @config[:s3, :server]
       end
 
     end
